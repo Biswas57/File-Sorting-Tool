@@ -1,0 +1,155 @@
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 874, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/git-branches-merge.svg' -> '/Users/biswas.simk/Downloads/Python Automation/Media/Images/git-branches-merge.svg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 204, in run
+    self.dispatch_events(self.event_queue)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 380, in dispatch_events
+    handler.dispatch(event)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/events.py", line 276, in dispatch
+    {
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 51, in on_modified
+    self.check_image_files(entry, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 70, in check_image_files
+    move_file(DEST_DIR_IMAGE, entry.path, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 39, in move_file
+    move(entry, join(dest, name))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 894, in move
+    copy_function(src, real_dst)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 463, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 262, in copyfile
+    with open(dst, 'wb') as fdst:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/Python Automation/Media/Images/git-branches-merge.svg'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 874, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/git-branches-merge.svg' -> '/Users/biswas.simk/Downloads/Python Automation/Media/Images/git-branches-merge.svg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 204, in run
+    self.dispatch_events(self.event_queue)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 380, in dispatch_events
+    handler.dispatch(event)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/events.py", line 276, in dispatch
+    {
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 51, in on_modified
+    self.check_image_files(entry, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 70, in check_image_files
+    move_file(DEST_DIR_IMAGE, entry.path, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 39, in move_file
+    move(entry, join(dest, name))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 894, in move
+    copy_function(src, real_dst)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 463, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 262, in copyfile
+    with open(dst, 'wb') as fdst:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/Python Automation/Media/Images/git-branches-merge.svg'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 874, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/git-branches-merge.svg' -> '/Users/biswas.simk/Downloads/Media/Images/git-branches-merge.svg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 204, in run
+    self.dispatch_events(self.event_queue)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 380, in dispatch_events
+    handler.dispatch(event)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/events.py", line 276, in dispatch
+    {
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 51, in on_modified
+    self.check_image_files(entry, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 70, in check_image_files
+    move_file(DEST_DIR_IMAGE, entry.path, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 39, in move_file
+    move(entry, join(dest, name))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 894, in move
+    copy_function(src, real_dst)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 463, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 262, in copyfile
+    with open(dst, 'wb') as fdst:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/Media/Images/git-branches-merge.svg'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 874, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/git-branches-merge.svg' -> '/Users/biswas.simk/Downloads/Python Automation/Media/Images/git-branches-merge.svg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 204, in run
+    self.dispatch_events(self.event_queue)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 380, in dispatch_events
+    handler.dispatch(event)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/events.py", line 276, in dispatch
+    {
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 51, in on_modified
+    self.check_image_files(entry, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 70, in check_image_files
+    move_file(DEST_DIR_IMAGE, entry.path, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 39, in move_file
+    move(entry, join(dest, name))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 894, in move
+    copy_function(src, real_dst)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 463, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 262, in copyfile
+    with open(dst, 'wb') as fdst:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/Python Automation/Media/Images/git-branches-merge.svg'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 874, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/git-branches-merge.svg' -> '/Users/biswas.simk/Downloads/Media/Images/git-branches-merge.svg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 204, in run
+    self.dispatch_events(self.event_queue)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/observers/api.py", line 380, in dispatch_events
+    handler.dispatch(event)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/watchdog/events.py", line 276, in dispatch
+    {
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 51, in on_modified
+    self.check_image_files(entry, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 70, in check_image_files
+    move_file(DEST_DIR_IMAGE, entry.path, name)
+  File "/Users/biswas.simk/Desktop/GitHub Personal Projects for Resume/PythonCleanup/fileAutomation.py", line 39, in move_file
+    move(entry, join(dest, name))
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 894, in move
+    copy_function(src, real_dst)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 463, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/shutil.py", line 262, in copyfile
+    with open(dst, 'wb') as fdst:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/biswas.simk/Downloads/Media/Images/git-branches-merge.svg'
